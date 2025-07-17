@@ -7,9 +7,8 @@ export interface Section {
 
 export const contactInfo = {
   fullName: 'Amin Jafarlou',
-  email: 'amin.jafarlou@example.com',
-  phone: '+98 912 345 6789',
-  location: 'Tehran, Iran',
+  email: 'jafarlou.amin@gmail.com',
+  phone: '+98 937 066 2186',
   website: 'https://aminjafarlou.com',
 }
 
@@ -20,16 +19,18 @@ export const sections: Section[] = [
       {
         title: 'M.Sc. in Chemical Engineering (Specialty: Reservoir Engineering)',
         subItems: [
-          { title: 'University of Tehran, Tehran, Iran, September 2017 – present' },
+          { title: 'University of Tehran, Tehran, Iran, 2017 – 2020' },
           { title: 'Grade Point Average: 18.06 / 20.00' },
-          { title: 'Thesis Subject:' },
-          { title: 'Expected Graduation Date: July 2020' },
+          {
+            title:
+              'Thesis Subject:  Dynamic of adsorption for complex fluids interfaces: development of new models for surfactant, nanoparticle and polymer complexes',
+          },
         ],
       },
       {
         title: 'B.Sc. in Petroleum Engineering',
         subItems: [
-          { title: 'Sharif University of Technology, Tehran, Iran, September 2012 – August 2016' },
+          { title: 'Sharif University of Technology, Tehran, Iran, 2012 – 2016' },
           {
             title:
               'Thesis Subject: The Effect of “Potential Determining Ions Added to Smart-water” on rock properties in Enhanced Oil Recovery, using streaming potential method',
@@ -42,7 +43,7 @@ export const sections: Section[] = [
         subItems: [
           {
             title:
-              'National Organization of Development of Exceptional Talents High School Center, Tabriz, Iran, September 2008 – August 2012',
+              'National Organization of Development of Exceptional Talents High School Center, Tabriz, Iran, 2008 – 2012',
           },
           { title: 'Graduate Grade Point Average: 19.24 / 20.0' },
         ],
