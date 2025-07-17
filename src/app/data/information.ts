@@ -9,6 +9,7 @@ export const contactInfo = {
   fullName: 'Amin Jafarlou',
   email: 'jafarlou.amin@gmail.com',
   phone: '+98 937 066 2186',
+  scholar: 'https://scholar.com/aminjafarlou',
   website: 'https://aminjafarlou.com',
 }
 
@@ -55,18 +56,20 @@ export const sections: Section[] = [
     title: 'Publications',
     items: [
       {
-        title: 'Dynamics of adsorption of CTAB-Silica nanoparticle complexes, New experiments and modeling approach',
+        title:
+          'Dynamics of adsorption of CTAB-Silica nanoparticle complexes, New experiments and modeling approach (2021)',
         subItems: [
           {
-            title: 'Colloids and Surfaces A: Physicochemical and Engineering Aspects 629, 127448 (2021)',
+            title: 'Colloids and Surfaces A: Physicochemical and Engineering Aspects 629, 127448',
           },
         ],
       },
       {
-        title: 'Streaming Potential measurement to quantify wetting state of rocks, In-house novel setup experience',
+        title:
+          'Streaming Potential measurement to quantify wetting state of rocks, In-house novel setup experience (2017)',
         subItems: [
           {
-            title: 'IOR 2017 - 19th European Symposium on Improved Oil Recovery (2017)',
+            title: 'IOR 2017 - 19th European Symposium on Improved Oil Recovery',
           },
         ],
       },
@@ -82,12 +85,17 @@ export const sections: Section[] = [
       },
       {
         title: ' Co, Tehran, Iran (2021 – 2023)',
-        subItems: [{ title: 'Researcher and Software Engineer, applying Kalman Filter method for predicting three-phase flow in wellbore conditions' }],
+        subItems: [
+          {
+            title:
+              'Researcher and Software Engineer, applying Kalman Filter method for predicting three-phase flow in wellbore conditions',
+          },
+        ],
       },
       {
         title: 'Koupal Energy & Development Co, Tehran, Iran (2020 - 2021)',
         subItems: [{ title: 'Researcher for national project of EOR for Iranian oil fields' }],
-      }
+      },
     ],
   },
 
