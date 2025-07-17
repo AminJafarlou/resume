@@ -16,7 +16,7 @@ export const renderItems = (items: Item[], level: number = 0) => {
     >
       {items.map((item, index) => (
         <li key={index}>
-          <div>{item.title}</div>
+          <div className={level === 0  ? `font-bold` : ''}>{item.title}</div>
           {item.subItems && renderItems(item.subItems, level + 1)}
         </li>
       ))}

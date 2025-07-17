@@ -49,6 +49,7 @@ export const sections: Section[] = [
       },
     ],
   },
+
   {
     title: 'Publications',
     items: [
@@ -88,6 +89,7 @@ export const sections: Section[] = [
       },
     ],
   },
+
   {
     title: 'Research Experience',
     items: [
@@ -113,6 +115,15 @@ export const sections: Section[] = [
       },
     ],
   },
+
+  {
+    title: 'Teaching Experience',
+    items: [
+      { title: 'Teaching Assistant of Heat Transfer Course (2019)' },
+      { title: 'Teaching Assistant of Surface Phenomena Course (2019)' },
+    ],
+  },
+
   {
     title: 'Languages',
     items: [
@@ -134,6 +145,30 @@ export const sections: Section[] = [
       { title: 'Turkish (Native)' },
     ],
   },
+
+  {
+    title: 'Selected Courses',
+    items: [
+      {
+        title: 'M.Sc. Courses',
+        subItems: [
+          { title: 'Surface Phenomena, 19.50/20.00 (Top Rank)' },
+          { title: 'Advanced Enhanced Oil Recovery, 19.20/20.0 (Top Rank)' },
+          { title: 'Fractured Reservoirs, 18.50/20.00 (2nd Rank)' },
+          { title: 'Seminar & Research Method, 18.50/20.0' },
+        ],
+      },
+      {
+        title: 'B.Sc. Courses',
+        subItems: [
+          { title: 'Computer Programming: Pascal, 17.20/20.0' },
+          { title: 'Fluid Mechanics, 18.00/20.0' },
+          { title: 'Petroleum Engineering Software (MATLAB, Comsol), 18.00/20.00 (2nd Rank)' },
+        ],
+      },
+    ],
+  },
+
   {
     title: 'Honors and Awards',
     items: [
@@ -153,6 +188,7 @@ export const sections: Section[] = [
       },
     ],
   },
+
   {
     title: 'References',
     items: [
@@ -196,6 +232,7 @@ export const sections: Section[] = [
       },
     ],
   },
+
   {
     title: 'Extracurricular Activities and Hobbies',
     items: [
