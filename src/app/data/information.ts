@@ -77,17 +77,17 @@ export const sections: Section[] = [
     title: 'Professional Experience',
     items: [
       {
-        title: 'Koupal Energy & Development Co, Tehran, Iran',
-        subItems: [{ title: 'Researcher for national project of EOR for Iranian oil fields' }],
+        title: 'Azkivam Co., Tehran, Iran, (2023 – Present)',
+        subItems: [{ title: 'Software Engineer Team Lead, leading front-end team of developers' }],
       },
       {
-        title: 'University of Tehran, Tehran, Iran',
-        subItems: [
-          {
-            title: 'A member of EOR screening team for Azadegan Oil Field located in Ahwaz, Iran',
-          },
-        ],
+        title: ' Co, Tehran, Iran (2021 – 2023)',
+        subItems: [{ title: 'Researcher and Software Engineer, applying Kalman Filter method for predicting three-phase flow in wellbore conditions' }],
       },
+      {
+        title: 'Koupal Energy & Development Co, Tehran, Iran (2020 - 2021)',
+        subItems: [{ title: 'Researcher for national project of EOR for Iranian oil fields' }],
+      }
     ],
   },
 
