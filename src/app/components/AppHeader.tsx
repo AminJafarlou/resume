@@ -9,7 +9,7 @@ export const AppHeader: FC<AppHeaderProps> = ({ onDownload }) => {
   return (
     <header className="sticky top-0 z-10 h-[60px] flex items-center justify-between px-4 border-b bg-white shadow-sm">
       <div className="flex items-center space-x-2">
-        <Image src="/logo.png" height={60} width={150} alt="Logo" />
+        <Image src="logo.png" height={60} width={150} alt="Logo" />
       </div>
 
       <button
