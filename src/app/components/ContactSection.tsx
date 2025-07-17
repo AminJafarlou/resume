@@ -17,16 +17,16 @@ export const ContactSection = () => {
         </div>
         <div className="flex gap-2">
           <span className="font-medium">Google Scholar:</span>
-          <a href={`https://${contactInfo.scholar}`} className="text-blue-600 hover:underline">
-            {contactInfo.scholar}
+          <a href={`https://${contactInfo.scholar}`} target='_blank' className="text-blue-600 hover:underline">
+            Link
           </a>
         </div>
-        <div className="flex gap-2">
+        {/* <div className="flex gap-2">
           <span className="font-medium">Website:</span>
           <a href={`https://${contactInfo.website}`} className="text-blue-600 hover:underline">
             {contactInfo.website}
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   )

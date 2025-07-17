@@ -9,8 +9,8 @@ export const contactInfo = {
   fullName: 'Amin Jafarlou',
   email: 'jafarlou.amin@gmail.com',
   phone: '+98 937 066 2186',
-  scholar: 'https://scholar.com/aminjafarlou',
-  website: 'https://aminjafarlou.com',
+  scholar: 'scholar.google.com/citations?user=_eCXqRcAAAAJ&hl=en',
+  website: 'aminjafarlou.com',
 }
 
 export const sections: Section[] = [
@@ -141,12 +141,7 @@ export const sections: Section[] = [
         subItems: [
           {
             title: 'TOEFL iBT: 115 out of 120',
-            subItems: [
-              { title: 'Reading: 30/30' },
-              { title: 'Listening: 30/30' },
-              { title: 'Speaking: 28/30' },
-              { title: 'Writing: 27/30' },
-            ],
+            subItems: [{ title: 'Reading: 30/30, Listening: 30/30, Speaking: 28/30, Writing: 27/30' }],
           },
         ],
       },
