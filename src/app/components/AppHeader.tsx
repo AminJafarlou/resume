@@ -1,14 +1,17 @@
-import dynamic from 'next/dynamic';
-import { contactInfo } from '../data/information';
-import { PagePdf } from './pdf/PagePdf';
+import dynamic from 'next/dynamic'
+import { contactInfo } from '../data/information'
+import { PagePdf } from './pdf/PagePdf'
 
 const PDFDownloadLink = dynamic(
-  () => import("@react-pdf/renderer").then((mod) => mod. PDFDownloadLink),
+  async () => {
+    const mod = await import('@react-pdf/renderer')
+    return mod.PDFDownloadLink
+  },
   {
     ssr: false,
     loading: () => <p>Loading...</p>,
-  },
-);
+  }
+)
 
 export const AppHeader = () => {
   return (
