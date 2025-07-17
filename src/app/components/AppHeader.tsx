@@ -1,23 +1,19 @@
-import Image from 'next/image'
-import { FC } from 'react'
+import { PDFDownloadLink } from '@react-pdf/renderer'
+import { contactInfo } from '../data/information'
+import { PagePdf } from './pdf/PagePdf'
 
-interface AppHeaderProps {
-  onDownload: () => void
-}
-
-export const AppHeader: FC<AppHeaderProps> = ({ onDownload }) => {
+export const AppHeader = () => {
   return (
-    <header className="sticky top-0 z-10 h-[60px] flex items-center justify-between px-4 border-b bg-white shadow-sm">
-      <div className="flex items-center space-x-2">
-        <Image src="logo.png" height={60} width={150} alt="Logo" />
-      </div>
+    <header className="sticky top-0 z-10 h-[60px] flex items-center justify-between px-4 bg-sky-800 shadow-sm shadow-sky-100">
+      <h1 className="text-white text-2xl font-bold">{contactInfo.fullName}</h1>
 
-      <button
-        onClick={onDownload}
-        className="bg-sky-800 text-white px-4 py-2 rounded hover:bg-sky-950 transition cursor-pointer"
+      <PDFDownloadLink
+        document={<PagePdf />}
+        fileName={`${contactInfo.fullName} Resume.pdf`}
+        className="bg-sky-50 text-sky-800 px-4 py-2 rounded hover:bg-sky-200 transition cursor-pointer font-bold"
       >
-        Download PDF
-      </button>
+        {({ loading, error }) => (error ? 'Failed to load PDF' : loading ? 'Loading document…' : 'Download PDF')}
+      </PDFDownloadLink>
     </header>
   )
 }
