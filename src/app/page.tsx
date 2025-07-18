@@ -6,10 +6,12 @@ import { ResumeSection } from './components/ResumeSection'
 
 export default function Home() {
   return (
-    <div className="max-w-4xl mx-auto py-8 px-4 space-y-8">
+    <div className="max-w-4xl mx-auto pb-8 space-y-8">
       <AppHeader />
-      <ContactSection />
-      <ResumeSection />
+      <div className="px-2">
+        <ContactSection />
+        <ResumeSection />
+      </div>
     </div>
   )
 }

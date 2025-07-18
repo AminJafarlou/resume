@@ -3,7 +3,7 @@ import { contactInfo } from '../data/information'
 export const ContactSection = () => {
   return (
     <div className="text-center flex justify-between">
-      <h1 className="text-2xl font-bold mb-4">{contactInfo.fullName}</h1>
+      <h1 className="text-2xl text-left font-bold mb-4">{contactInfo.fullName}</h1>
       <div className="space-y-1 inline-block">
         <div className="flex gap-2">
           <span className="font-medium">Email:</span>
