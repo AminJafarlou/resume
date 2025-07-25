@@ -84,13 +84,17 @@ export const sections: Section[] = [
         subItems: [{ title: 'Software Engineer Team Lead, leading front-end team of developers' }],
       },
       {
-        title: ' Co, Tehran, Iran (2021 – 2023)',
+        title: 'Iranian Offshore Oil Co, Tehran, Iran (2021 – 2024)',
         subItems: [
           {
             title:
-              'Researcher and Software Engineer, applying Kalman Filter method for predicting three-phase flow in wellbore conditions',
+              'Researcher and Software Engineer, developing a software to predict three-phase flow in wellbore conditions, using Kalman filter methods',
           },
         ],
+      },
+      {
+        title: '1st , Tehran, Iran (2021 - 2022)',
+        subItems: [{ title: 'Software Engineer, frontend developer' }],
       },
       {
         title: 'Koupal Energy & Development Co, Tehran, Iran (2020 - 2021)',
