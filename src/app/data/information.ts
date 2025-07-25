@@ -93,7 +93,7 @@ export const sections: Section[] = [
         ],
       },
       {
-        title: '1st , Tehran, Iran (2021 - 2022)',
+        title: '1st Eurasia E-commerce, Tehran, Iran (2021 - 2022)',
         subItems: [{ title: 'Software Engineer, frontend developer' }],
       },
       {
